@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:ital@1&family=Pangolin&family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    text-align: center;
+    background-color: pink;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  div{
+    height: 100px;
+    width: 500px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 3rem;
+    padding-top: 3rem;
+  }
+
+  h1{
+    border:2px solid black; 
+    width: 300px;
+    height: 80px;
+    margin-left: 38rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.6s;
+  }
+
+  button{
+    border:7px solid black; 
+    margin: 2rem;
+    padding: 1rem;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    border-radius:10px;
+  }
+
+  button:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.6s;
+  }
+
+  .para{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+  }
+
+  #rgb{
+    font-size: 20px;
+  }
+  
+  @media(max-width:1024px){
+    h1{
+      margin-left: 14rem;
+    }
+
+    #rgb{
+      font-size: 25px;
+      font-weight: 20px;
+    }
+
+    body{
+      margin-bottom: 30px;
+    }
+  }
+
+  
+
+
+  @media(max-width:667px){
+    .para{
+      width: 350px;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      height: 100px;
+      margin-bottom:7rem ;
+    }
+
+    h1{
+      margin-left: 2rem;
+    }
+
+    #rgb{
+      font-size: 20px;
+    }
+  }
+
+  
